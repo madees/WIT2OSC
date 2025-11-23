@@ -75,11 +75,11 @@ def updateData(DeviceModel):
     client.send_message("/WT/angX", DeviceModel.get("AngX"))
     client.send_message("/WT/angY", DeviceModel.get("AngY"))
     client.send_message("/WT/angZ", DeviceModel.get("AngZ"))
-    client.send_message("/WT/Temp", DeviceModel.get("Temp"))
-    client.send_message("/WT/D0", DeviceModel.get("D0"))
-    client.send_message("/WT/D1", DeviceModel.get("D1"))
-    client.send_message("/WT/D2", DeviceModel.get("D2"))
-    client.send_message("/WT/D3", DeviceModel.get("D3"))
+    client.send_message("/WT/temp", DeviceModel.get("Temp"))
+    client.send_message("/WT/joyX", DeviceModel.get("D0"))
+    client.send_message("/WT/joyY", DeviceModel.get("D1"))
+    client.send_message("/WT/joyC", DeviceModel.get("D2"))
+    client.send_message("/WT/joyZ", DeviceModel.get("D3"))
     #print ("New data received)")                 
 
 

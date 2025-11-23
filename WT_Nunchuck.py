@@ -167,6 +167,7 @@ class DeviceModel:
                 self.set("D1", round(portD1, 5))
                 self.set("D2", round(portD2, 5))
                 self.set("D3", round(portD3, 5))
+            # Temperature readout
             elif Bytes[2] == 0x40:
                 temp = self.getSignInt16(Bytes[5] << 8 | Bytes[4]) / 100
                 self.set("Temp", round(temp, 1))
