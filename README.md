@@ -33,7 +33,8 @@ This describes the device class.
 ## WTNUNCHUCK Project
 This project is with a refurbished Nitendo Nunchuck enclosure with its joystick and buttons.
 It added a battery, USC C charger, and WT901BLE sensor module.
-
+!(/assets/images/IMG3623.jpeg)
+!(/assets/images/IMG3624.jpeg)
 Joystick and buttons are connected to D0..D3 expansion ports.
 ### Usage
 Run WIT2OSC-NUNCHUCK.py
