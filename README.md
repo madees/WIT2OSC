@@ -29,10 +29,10 @@ And board temp
 /WT/temp
 
 And Joystick positions and buttons :
-/WT/JoyX
-/WT/JoyY
-/WT/SwitchC
-/WT/SwitchZ
+/WT/joyX
+/WT/joyY
+/WT/joyC
+/WT/joyZ
 
 ## Dependencies
 ### pyhtonosc
