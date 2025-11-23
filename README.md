@@ -16,7 +16,23 @@ Those sensors uses:
 Files originated from Wit-motion Python SDK :
 See https://github.com/WITMOTION/WitBluetooth_BWT901BLE5_0/tree/main/Python/BWT901BLE5.0_python_sdk
 
+See in /assets for protocol documentaiton and module datasheet.
+
 About OSC : https://opensoundcontrol.stanford.edu/index.html
+
+Send 3D angles commands:
+/WT/angX
+/WT/angY
+/WT/angZ
+
+And board temp
+/WT/temp
+
+And Joystick positions and buttons :
+/WT/JoyX
+/WT/JoyY
+/WT/SwitchC
+/WT/SwitchZ
 
 ## Dependencies
 ### pyhtonosc
@@ -33,8 +49,8 @@ This describes the device class.
 ## WTNUNCHUCK Project
 This project is with a refurbished Nitendo Nunchuck enclosure with its joystick and buttons.
 It added a battery, USC C charger, and WT901BLE sensor module.
-!(/assets/images/IMG3623.jpeg)
-!(/assets/images/IMG3624.jpeg)
+![WTNUNCHUCK closed](/assets/images/IMG3623.jpeg)
+![WTNUNCHUCK open](/assets/images/IMG3624.jpeg)
 Joystick and buttons are connected to D0..D3 expansion ports.
 ### Usage
 Run WIT2OSC-NUNCHUCK.py
