@@ -48,7 +48,10 @@ This describes the device class.
 
 ## WTNUNCHUCK Project
 This project is with a refurbished Nitendo Nunchuck enclosure with its joystick and buttons.
+
 It added a battery, USC C charger, and WT901BLE sensor module.
+So, it becomes a 3D pointer device with additionnal joystick and triggers.
+
 ![WTNUNCHUCK closed](/assets/images/IMG_3623.jpeg)
 ![WTNUNCHUCK open](/assets/images/IMG_3624.jpeg)
 Joystick and buttons are connected to D0..D3 expansion ports.
@@ -58,3 +61,9 @@ This use my MAC adress as default, you can change it or switch to the "scan" met
 
 It will send OSC to local (127.0.0.1) IP as default, but you can specify another IP as argument in the command line.
 Port is 50061 by default.
+
+### Exemple of application
+The .noisette file for https://benjamin.kuperberg.fr/chataigne/en
+Gives an example to collect the OSC input and control Point2D object.
+angZ (horizontal plane) give the position of object (azimuth), angX (elevation) the distance of the object.
+angY (pitch) can be mapped to aux send (reverb).
