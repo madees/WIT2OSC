@@ -82,9 +82,13 @@ class DeviceModel:
                         break
 
             if self.writer_characteristic:
-                # Reading aux ports
-                #print("Set register for D0..3")
-                #await self.writeReg(0x0E,0)
+                # set aux ports mode (is it the right place for module init ? default should be already 0:analog input, others 1:digital in, 2:digital out hi, 3:digital out lo)
+                #print("Set register for D0..3 mode")
+                #self.writeReg(0x0E,0)
+                #self.writeReg(0x0F,0)
+                #self.writeReg(0x10,0)
+                #self.writeReg(0x11,0)
+                #time.sleep(1)
                 print("Reading D0..D3")
                 time.sleep(3)
                 asyncio.create_task(self.sendDataTh())
