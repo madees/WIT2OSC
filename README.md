@@ -50,6 +50,7 @@ This describes the device class.
 I first use a WITMOTION WT9011DCL :
 https://witmotion-sensor.com/products/wt9011dcl-bluetooth5-0-compact-size-accelerometer-inclinometer-sensor
 As a wireless battery powered plug and play solution for 3D pointing device.
+![WT9011DCL](https://witmotion-sensor.com/cdn/shop/files/WT9011DCL.jpg)
 
 I also used in as alternative project a refurbished Nitendo Nunchuck enclosure with its joystick and buttons.
 I've added a battery, USC C charger, and WT901BLE sensor module.
