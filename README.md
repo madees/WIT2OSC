@@ -47,9 +47,12 @@ For Bluetooth LE 5.0 coms.
 This describes the device class.
 
 ## WTNUNCHUCK Project
-This project is with a refurbished Nitendo Nunchuck enclosure with its joystick and buttons.
+I first use a WITMOTION WT9011DCL :
+https://witmotion-sensor.com/products/wt9011dcl-bluetooth5-0-compact-size-accelerometer-inclinometer-sensor
+As a wireless battery powered plug and play solution for 3D pointing device.
 
-It added a battery, USC C charger, and WT901BLE sensor module.
+I also used in as alternative project a refurbished Nitendo Nunchuck enclosure with its joystick and buttons.
+I've added a battery, USC C charger, and WT901BLE sensor module.
 So, it becomes a 3D pointer device with additionnal joystick and triggers.
 
 ![WTNUNCHUCK closed](/assets/images/IMG_3623.jpeg)
